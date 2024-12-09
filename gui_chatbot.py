@@ -79,12 +79,12 @@ def send():
         ChatBox.yview(END)
 
 root = Tk()
-root.title("Chatbot")
+root.title("Minh thang Chatbot")
 root.geometry("400x500")
 root.resizable(width=FALSE, height=FALSE)
 
 # Add a title label
-title_label = Label(root, text="Chatbot", bg="#3c9d9b", fg="white", font=("Verdana", 16, 'bold'))
+title_label = Label(root, text="Minh Thang Chatbot", bg="#3c9d9b", fg="white", font=("Verdana", 16, 'bold'))
 title_label.pack(pady=10)
 
 #Create Chat window
